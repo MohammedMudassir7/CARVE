@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AED581"
+    android:backgroundTintMode="multiply"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="161dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="420dp"
+        android:background="#F8FBF8"
+        android:backgroundTint="#FFFFFF"
+        android:text="Start"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="161dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="423dp"
+        android:background="#FFFF00"
+        android:text="Stop"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="523dp"
+        android:text="00:00:00"
+        android:textColor="#000000"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="638dp"
+        android:text="TIMER"
+        android:textColor="#1C1C1B"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+
+    <!--    <com.github.mikephil.charting.charts.LineChart-->
+    <!--        android:id="@+id/lineChart"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="200dp" />-->
+
+
+</RelativeLayout>
